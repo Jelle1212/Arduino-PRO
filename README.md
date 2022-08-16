@@ -45,5 +45,24 @@ Installation
     },
     "terminal.integrated.defaultProfile.windows": "Git Bash", //Change default terminal 
 }
+```for 
+6. In your vscode project in the .vscode folder add the apro_settings.json for basic configurations, see example below.
+
 ```
-6. For a vscode project example see tme_vuurtoren project.
+{
+    "board" : "arduino:samd:arduino_zero_native",
+    "port"  : "COM9",
+    "baudrate" : "115200",
+    "programmer" : "none"
+}
+```
+7. Your arduino vscode structure should look like this.
+
+### A typical top-level directory layout
+
+ ├── project_name_root       # Main project folder
+ │   ├── .vscode             # Project jsons (i.e. c_cpp_properties.json and apro_settings.json)
+ │   ├── build               # Project build folder
+ │   ├── libraries           # Arduino libraries
+ │   ├── src                 # Source files
+ └── project_name.ino        # Arduino project file
