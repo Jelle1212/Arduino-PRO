@@ -45,8 +45,10 @@ Installation
     },
     "terminal.integrated.defaultProfile.windows": "Git Bash", //Change default terminal 
 }
-```for 
+```
+
 6. In your vscode project in the .vscode folder add the apro_settings.json for basic configurations, see example below.
+
 
 ```
 {
