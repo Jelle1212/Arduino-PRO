@@ -58,8 +58,9 @@ Installation
     "programmer" : "none"
 }
 ```
-7. Your arduino vscode structure should look like this.
+7. Your arduino vscode project structure should look like this.
 
+```
 ### A typical top-level directory layout
 
  ├── project_name_root       # Main project folder
@@ -68,3 +69,4 @@ Installation
  │   ├── libraries           # Arduino libraries
  │   ├── src                 # Source files
  └── project_name.ino        # Arduino project file
+ ```
