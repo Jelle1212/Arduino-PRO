@@ -8,7 +8,7 @@ Installation
 3. Open Visual Studio Code and install VsCode Action Buttons extension.
 4. Open the extension setting of the VsCode Action Buttons and edit the settings.json file, which can also be seen in https://www.youtube.com/watch?v=5IuZ-E8Tmhg&t=524s&ab_channel=YuriR at 8:35.
 5. Copy and paste the following json in the settings.json file
-
+{
     "actionButtons": {
 
         "defaultColor": "white",
@@ -42,6 +42,6 @@ Installation
         ]
     },
     "terminal.integrated.defaultProfile.windows": "Git Bash", //Change default terminal 
-
+}
 
 6. For a vscode project example see tme_vuurtoren project.
